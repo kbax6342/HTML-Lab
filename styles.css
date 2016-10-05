@@ -35,6 +35,7 @@ body{
   border: solid ghostwhite 3px;
 }
 .bio-image{
+
   text-align: center;
 
 }
@@ -68,16 +69,24 @@ body{
 }
 
 .picture li img{
+  background-color: silver;
   margin: 0px;
   border: solid black 2px;
 
 }
 .portfolio li{
+  border: solid ghostwhite 1px;
+  border-radius: 10px;
+  background-color: silver;
   list-style: none;
   align-content: center;
-  margin: 0px;
-  padding: 0 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px 50px;
   display: inline-block;
+  box-shadow: 5px 5px 5px 1px #000000;
 }
 
 .portfolio li a{
