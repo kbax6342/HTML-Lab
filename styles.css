@@ -1,0 +1,128 @@
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+/*****************
+  Header
+*****************/
+.head-of-page{
+
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  background-color: #999999;
+  text-align: center;
+  text-decoration: underline;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+.top-of-page{
+
+  width: 100%;
+  background-color: #669999;
+  margin-bottom: 0px;
+  border-bottom: solid black 3px;
+  padding-bottom: 50px;
+}
+.profile-pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid ghostwhite 3px;
+}
+.bio-image{
+  text-align: center;
+
+}
+.bio-caption{
+  font-family: sans-serif;
+  color: ghostwhite;
+  font-size: 25px;
+  text-align: center;
+  padding: 0 150px;
+  margin-bottom: 0px;
+}
+.bio-content{
+  margin-bottom: 0px;
+}
+.second-heading{
+  text-decoration: underline;
+}
+
+/*****************
+      Body
+*****************/
+
+.portfolio{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #FF3333;
+  border-bottom: solid black 3px;
+}
+
+.picture li img{
+  margin: 0px;
+  border: solid black 2px;
+
+}
+.portfolio li{
+  list-style: none;
+  align-content: center;
+  margin: 0px;
+  padding: 0 50px;
+  display: inline-block;
+}
+
+.portfolio li a{
+  align-content: center;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.picture{
+  margin: 0px;
+}
+
+
+/*****************
+    Footer
+*****************/
+#footer{
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: #003333;
+}
+.email{
+  margin: 0px;
+}
+
+.footer-pic{
+  height: 30px;
+  width: 30px;
+
+}
+.footer-list li{
+  margin: 0px;
+  list-style: none;
+  display: inline-block;
+}
+.footer-list{
+margin: 0px;
+padding: 50px 500px;
+}
+.footer-list li a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-size: 20px;
+  font-family: sans-serif;
+}
