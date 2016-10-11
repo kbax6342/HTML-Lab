@@ -5,13 +5,20 @@
     <meta charset="utf-8">
     <title>Kevin Baxter Portfolio</title>
     <link rel="stylesheet" href="styles.css" media="screen" title="no title">
-    <link rel="javascript" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
-  <body>
+  <body ng-app="action">
     <div class="top-of-page">
-    <h1 class="head-of-page">Kevin Nelms Baxter Portfolio</h1>
+      <div class = "navigation">
+        <ul class = "navigation-list">
+          <li><a href="#profile-pic"><img class="logo" src="img/Baxter_logo.png"/></a></li>
+          <li><h1 class="name">Kevin Nelms Baxter Portfolio</h1></li>
+        </ul>
+    </div>
     <div class="bio-image">
-      <a href="https://github.com/kbax6342"><img class="profile-pic" src="img/kevin-pic.jpeg"/></a>
+
+      <a href="https://github.com/kbax6342"><img id="profile-pic" src="img/kevin-pic.jpeg"/></a>
     </div>
     <div class="bio-caption">
       <h2 class="second-heading">About Me</h2>
@@ -27,15 +34,46 @@
     </div>
   </div>
 
+  <div class="container">
+    <div class="div-in-container">
+        <img class="div-icon1" src="img/html-tag-icon.png" />
+        <li>HTML was the first language I was introduced to.</li>
+        <li>I have done many projects using html ranging from registration forms to contest pages.</li>
+        <li>I also have over 10 respositories on GitHub showing my work with HTML.</li>
+        <li>HTML is a solid part of my foundation in my web development ablities.</li>
+    </div>
+    <div class="div-in-container">
+      <img class="div-icon" src="img/code-icon.png"/>
+      <li>CSS has been a true passion of mine.</li>
+      <li>This language is what made me fall in love with web developement.</li>
+      <li>I have used many frameworks of CSS like BootStrap and Materialize.</li>
+      <li>With each project I get more skilled learning how to traverse the DOM and manipulate elements with ease.</li>
+    </div>
+    <div class="div-in-container">
+      <img class="div-icon" src="img/javascript-icon.svg"/>
+      <li>JavaScript is the final piece of my foundation in web development.</li>
+      <li>I have experienced many frameworks in JavaScript.</li>
+      <li>In school I  have worked with and experienced: JQuery, Angular.Js, and Node.Js</li>
+      <li>I believe javascript is the future of web development.</li>
+      <li>JavaScript is my main focus and I am taking all the steps I can to continuously grow my skill set.</li>
+    </div>
+  </div>
+
 
     <div class="portfolio">
       <ul class="picture">
         <li>
-          <a href="https://github.com/kbax6342/Dice-Rolling"><img src="img/dice.jpg"/><br>Dice Rolling App</a></li>
+          <a href="https://github.com/kbax6342/Dice-Rolling"><img class="hover-effect" src="img/dice.jpg"/><br>Dice Rolling App (Java)</a></li>
         <li>
-          <a href="https://github.com/kbax6342/Circle-Object"><img src="img/images.jpeg"/><br>Create Circle App</a></li>
+          <a href="https://github.com/kbax6342/Circle-Object"><img class="hover-effect"src="img/images.jpeg"/><br>Create Circle App( Java)</a></li>
         <li>
-          <a href="https://github.com/kbax6342/Pig-Latin"><img src="img/pig-latin.jpg"/><br>Pig Latin Genarator App</a></li>
+          <a href="https://github.com/kbax6342/Pig-Latin"><img class="hover-effect" src="img/pig-latin.jpg"/><br>Pig Latin Genarator App (Java)</a></li>
+        <li>
+        <a href="https://github.com/kbax6342/Pottery-Barn-Code-Challenge"><img class="edit-picture"src="img/pottery-barn screenshot.png" /><br>Pottery Barn Contest Page (HTML(5),CSS)</a></li>
+        <li>
+          <a href="https://github.com/kbax6342/Registration-Form-Evergreen-Company-"><img class="edit-picture"src="img/evergreen-screenshot.png"/><br>Registration Evergreen Company (HTML(5),CSS)</a></li>
+        <li >
+          <a href="https://github.com/kbax6342/GeoBuzz-Bootcamp-Final-Project"><img class="edit-picture"src="img/GeoBuzz Final Project.png"/><br>Geo Buzz - Bootcamp Final Project (JavaScript)</a></li>
       </ul>
     </div>
 
@@ -48,6 +86,8 @@
         </ul>
       </div>
     </footer>
-
+    <script type="text/javascript" src="script.js"></script>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
   </body>
 </html>
